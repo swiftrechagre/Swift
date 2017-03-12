@@ -37,11 +37,11 @@
         android:id="@+id/new_email"
         android:hint="@string/new_email"
         android:layout_weight="0.15"
-        android:layout_height="60dp" />
+        android:layout_height="75dp" />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="75dp"
         android:inputType="textEmailAddress"
         android:ems="10"
         android:textColorHint="@color/colorinput"
