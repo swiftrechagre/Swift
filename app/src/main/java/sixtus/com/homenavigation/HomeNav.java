@@ -107,7 +107,8 @@ public class HomeNav extends AppCompatActivity
         int id = item.getItemId();
 
        if (id == R.id.nav_home) {
-           Toast.makeText(this, "Swift Recharge Home",Toast.LENGTH_LONG).show();
+       Intent ViewMeters = new Intent(HomeNav.this, User.class);
+           startActivity(ViewMeters);
         } else if (id == R.id.nav_personal_info) {
            Intent launchAccount = new Intent(HomeNav.this, UpdateDetails.class);
            startActivity(launchAccount);
